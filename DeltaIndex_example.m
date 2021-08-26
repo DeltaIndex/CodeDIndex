@@ -27,6 +27,6 @@ load('Example_Files/Voxelsize.mat');
 
 % Example plot
 figure(); 
-imagesc(Delta_total_20(:,:,ceil(size(Delta_total_50,3)/2)));
+imagesc(Delta_total_20(:,:,ceil(size(Delta_total_20,3)/2)));
 title('Delta index for prescription dose higher than 20% of the dose');
 colorbar;
