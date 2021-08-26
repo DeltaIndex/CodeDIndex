@@ -1,4 +1,4 @@
-function [Delta_total, Percentage] = Delta_index(DDM, Dose, Structure, Percentage, Per_dose, Dose_tol, range, VoxelsizeX, VoxelsizeY, VoxelsizeZ)
+function [Delta_final, Percentage] = Delta_index(DDM, Dose, Structure, Percentage, Per_dose, Dose_tol, range, VoxelsizeX, VoxelsizeY, VoxelsizeZ)
 
 %% Calculate the delta index - 05-03-2021
 % 
